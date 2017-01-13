@@ -1,5 +1,5 @@
 #header{
-	margin-bottom: 2%;
+	margin-bottom: 10px;
 	width: 100%;
 }
 #header .header-ad{
@@ -14,6 +14,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
+	height: 100%;
 	transition: left 1s;
 	-webkit-transition: left 1s;
 }
@@ -70,14 +71,13 @@
 #ads{
 	margin-left: 2%;
 	width: 96%;
-	margin-bottom: 2%;
+	margin-bottom: 7px;
 }
 #ads img{
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 #ads .big-ad{
 	width: 100%;
-	margin-bottom: 3px;
 }
 #ads .small-ad img{
 	float: left;
@@ -90,7 +90,7 @@
 	margin-left: 0.7%;
 }
 #ads .end{
-	margin-top: 6px;
+	margin-top: 4px;
 	margin-bottom: 0;
 }
 .tag{
@@ -121,7 +121,7 @@
 	border-bottom: 1px solid #999;
 	background: #fff;
 	overflow-x: auto;
-	margin-bottom: 2%;
+	margin-bottom: 10px;
 }
 .hot .show{
 	position: relative;
@@ -145,6 +145,7 @@
 }
 .hot .show li.next{
 	background: url(../home-img/hr.png) no-repeat left 18%;
+	background-size: 1px 70px;
 }
 .hot .show li a{
 	display: block;
